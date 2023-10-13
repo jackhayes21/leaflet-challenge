@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.legend-container {
+  background: white;
+  padding: 5px;
+  border: 1px solid #000;
+  color: black;;
+}
+.legend-box {
+  display: inline-block;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  margin-right: 5px;
+}
+
+
+.info.legend {
+  background: white;
+  padding: 50px;
+  border: 5px solid #000; /* You can adjust the value as needed */
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
